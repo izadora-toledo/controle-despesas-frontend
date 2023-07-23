@@ -1,41 +1,23 @@
-# Quasar App (project-quasar)
+## RODANDO O FRONTEND
+- Crie uma pasta com nome frontend no caminho C:\
+- Entre dentro da pasta frontend e com o botão direito clique pra abrir com o terminal
+- Clone o projeto utilizado o comando git clone https://github.com/izadora-toledo/controle-despesas-frontend.git
+- Execute o comando npm install
+- Execute o comando quasar dev
 
-A Quasar Project
+Após executar ele vai abrir direto a tela de colocar o email e senha, e aí você preenche com os seguintes dados:
+- EMAIL: admin@gmail.com
+- SENHA: 12345678
 
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
-```
+<h5>O projeto vai rodar no http://localhost:9000/#/</h5>
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+As rotas são as seguintes:
+principal - http://localhost:9000/#/
+http://localhost:9000/#/lista-despesas
+http://localhost:9000/#/listar-usuarios
 
+E clicando no icone de lápis pra editar despesa/usuario te encaminha para outra rota.
 
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
+Fiz o melhor que eu pude, infelizmente meu tempo é curto e foi a primeira vez que fiz algo com VUEJS e Quasar e a segunda vez que uso o laravel. Espero conseguir, tenho vontade de melhorar!
 
 
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
-
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
