@@ -44,7 +44,7 @@ export default {
   },
   methods: {
     login() {
-      const url = "http://localhost:8000/api/login"; // Substitua pela URL correta da sua API
+      const url = "http://localhost:8000/api/login"; 
       const credentials = { email: this.email, password: this.password };
 
       axios
@@ -52,7 +52,7 @@ export default {
         .then((response) => {
         
           console.log("Login realizado com sucesso!");
-          const token = response.data.token; // Obtém o token da resposta da API
+          const token = response.data.token; 
           console.log(token);     
           
           localStorage.setItem("token", token); 
