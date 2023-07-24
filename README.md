@@ -5,7 +5,7 @@
 - Entre na pasta do projeto com o comando: cd controle-despesas-frontend
 - Execute o comando npm install (caso não dê, é porque você precisa instalar o node globalmente, acesse e instale: https://nodejs.org/en)
 - Abra o projeto no vscode: code .
-- Abra o terminal no vscode e execute o comando: quasar dev
+- Abra o terminal no vscode e execute o comando: quasar dev (caso tenha algum problema com o terminal por não poder rodar script, baixe o git pra usar o git bash como terminal)
 
 Após executar ele vai abrir direto a tela de colocar o email e senha, e aí você preenche com os seguintes dados:
 - EMAIL: admin@gmail.com
