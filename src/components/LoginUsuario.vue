@@ -50,20 +50,17 @@ export default {
       axios
         .post(url, credentials)
         .then((response) => {
-          // Lógica para tratamento de sucesso do login
+        
           console.log("Login realizado com sucesso!");
           const token = response.data.token; // Obtém o token da resposta da API
-          console.log(token);
-
-          // Armazena o token em localStorage ou Vuex, para acesso posterior
-          // Exemplo usando localStorage:
-          localStorage.setItem("token", token); // Resposta da API (pode variar dependendo da implementação no Laravel)
-
-          // Redirecionar para a página ListaDespesa.vue após o login
+          console.log(token);     
+          
+          localStorage.setItem("token", token); 
+         
           this.$router.push("/lista-despesas");
         })
         .catch((error) => {
-          // Lógica para tratamento de erro no login
+         
           console.error("Erro no login:", error);
         });
     },
