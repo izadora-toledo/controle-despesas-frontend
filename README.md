@@ -2,8 +2,10 @@
 - Crie uma pasta com nome frontend no caminho C:\
 - Entre dentro da pasta frontend e com o botão direito clique pra abrir com o terminal
 - Clone o projeto utilizado o comando git clone https://github.com/izadora-toledo/controle-despesas-frontend.git
-- Execute o comando npm install
-- Execute o comando quasar dev
+- Entre na pasta do projeto com o comando: cd controle-despesas-frontend
+- Execute o comando npm install (caso não dê, é porque você precisa instalar o node globalmente, acesse e instale: https://nodejs.org/en)
+- Abra o projeto no vscode: code .
+- Abra o terminal no vscode e execute o comando: quasar dev
 
 Após executar ele vai abrir direto a tela de colocar o email e senha, e aí você preenche com os seguintes dados:
 - EMAIL: admin@gmail.com
